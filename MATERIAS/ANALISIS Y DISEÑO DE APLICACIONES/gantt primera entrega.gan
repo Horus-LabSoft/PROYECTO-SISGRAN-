@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-04-04" view-index="0" gantt-divider-location="372" resource-divider-location="300" version="2.8.6" locale="es_UY">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="181" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="69" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="68" order="2"/>
+        <field id="tpc0" name="New custom column" width="50" order="3"/>
+        <option id="color.recent"><![CDATA[#ff6666 #00ffff #ccff00 #99ff99 #00cccc #009999 #ff3399 #ff6699 #006600 #cccc00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="209" order="0"/>
+        <field id="1" name="Función" width="87" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+            <taskproperty id="tpc0" name="New custom column" type="custom" valuetype="text" defaultvalue=""/>
+        </taskproperties>
+        <task id="2" name="CREACION DEL GRUPO PARA EL PROYECTO" color="#009900" meeting="false" start="2022-04-25" duration="8" complete="0" thirdDate="2022-04-25" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="PRIMERA ENTREGA" color="#333333" meeting="false" start="2022-05-05" duration="53" complete="0" thirdDate="2022-04-25" thirdDate-constraint="0" expand="true">
+            <task id="0" name="ENTREGA DE LETRA DEL PROYECTO" color="#000099" meeting="false" start="2022-05-05" duration="1" complete="0" thirdDate="2022-05-05" thirdDate-constraint="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" name="LEER LETRA DEL PROYECTO" color="#0000cc" meeting="false" start="2022-05-06" duration="2" complete="0" thirdDate="2022-05-05" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="REALIZAR PRIMEROS REQUERIMIENTOS DE PROYECTO" color="#cc0000" meeting="false" start="2022-05-09" duration="6" complete="0" thirdDate="2022-05-10" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="REALIZAR LOS PRIMEROS REQUERMIENTOS DE FORMACION EMPRESARIAL" color="#990099" meeting="false" start="2022-05-19" duration="6" complete="0" thirdDate="2022-05-30" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="REALIZAR LOS PRIMEROS REQUERMIENTOS DE ADA" color="#00cccc" meeting="false" start="2022-05-10" duration="7" complete="0" thirdDate="2022-05-17" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="SEGUIMOS CON REQUERIMIENTOS DE PROYECTO" color="#cc0000" meeting="false" start="2022-05-30" duration="5" complete="0" thirdDate="2022-05-24" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="REPASO A DETALLE Y CULMINACION DE REQUERIMIENTOS DE FORMACION EMPRESARIAL" color="#cc00cc" meeting="false" start="2022-06-03" duration="6" complete="0" thirdDate="2022-06-08" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="DETALLAMOS Y CULMINAMOS LA PRIMERA ENTREGA DE PROYECTO" color="#cc0000" meeting="false" start="2022-06-13" duration="5" complete="0" thirdDate="2022-06-22" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="REALIZAMOS PRIMEROS REQUERIMIENTOS DE BASE DE DATOS" color="#cccc00" meeting="false" start="2022-06-17" duration="4" complete="0" thirdDate="2022-06-21" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="REALIZAMOS PRIMEROS REQUERIMIENTOS DE PROGRAMACION" color="#006600" meeting="false" start="2022-06-23" duration="5" complete="0" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true"/>
+            <task id="16" name="REALIZAMOS PRIMEROS REQUERIMIENTOS DE SISTEMAS OPERATIVOS" color="#ff6666" meeting="false" start="2022-05-17" duration="7" complete="0" thirdDate="2022-05-13" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="REALIZAMOS TODA LA PRIMERA ENTREGA DE TALLER" color="#99ff99" meeting="false" start="2022-06-30" duration="3" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+            <task id="17" name="SEGUIMOS REALIZANDO REQUERIMIENTOS DE PROYECTO" color="#00cccc" meeting="false" start="2022-06-09" duration="7" complete="0" thirdDate="2022-06-03" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="SEGUIMOS REALIZANDO REQUERIMIENTOS DE SISTEMAS OPERATIVOS" color="#ff6666" meeting="false" start="2022-05-30" duration="3" complete="0" thirdDate="2022-06-01" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="TERMINAMOS LOS REQUERIMIENTOS DE PROGRAMACION" meeting="false" start="2022-07-12" duration="5" complete="0" expand="true"/>
+            <task id="20" name="TERMINAMOS REQUERIMIENTOS DE BASE DE DATOS" color="#ccff00" meeting="false" start="2022-07-08" duration="4" complete="0" thirdDate="2022-05-27" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="TERMINAMOS LOS REQUERIMIENTOS DE SISTEMAS OPERATIVOS" color="#00ffff" meeting="false" start="2022-07-06" duration="7" complete="0" thirdDate="2022-07-06" thirdDate-constraint="0" expand="true"/>
+            <task id="22" name="TERMINAMOS LOS REQUERIMIENTOS DE SISTEMAS OPERATIVOS" color="#ff6666" meeting="false" start="2022-06-21" duration="4" complete="0" thirdDate="2022-07-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
